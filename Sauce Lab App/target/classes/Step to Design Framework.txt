@@ -1,0 +1,39 @@
+1.Install And Setup intelij for Cucumber
+--------------------------------------
+1) Download Intellij
+2)Add Cucumber plugin to Intellij it will ask you to install gerkin plugin as well
+
+2.Maven Setup
+--------------------------------------
+1)Download maven (https://maven.apache.org/download.cgi)
+2)Unzip maven and copy to c drive
+2)Edit System Variable and add maven path C:maven/bin
+3) Check Maven Version (mvn -version)
+
+3.Create Maven Project
+4.Add Cucumber jvm and  Junit Plugin
+------------
+https://mvnrepository.com/artifact/io.cucumber/cucumber-junit/7.3.4
+https://mvnrepository.com/artifact/io.cucumber/cucumber-java
+
+5.Add other dependencies to POM xml (Appium,json,log4g)
+
+6. Create Runner File : src/test/java/com/qa/runner/MyRunnerTest.java
+--------------------------------------
+glue,feature
+
+7.Create Feature File
+---------------------------------------
+src/test/resources/login feature and product feature
+learn gherkin basics from official website : https://cucumber.io/docs/gherkin/reference/
+
+8.Create Step Definition Files
+---------------------------------------
+src/test/java/com/qa/stepdef: login and product
+https://cucumber.io/docs/gherkin/step-organization/
+
+9.copy apps to src/test/resources/apps
+----------------------------------------
+10.copy config.properties and log4j.xml
+----------------------------------------
+log4j configuration : https://github.com/RashidulHasanRatul/AppiumTDDFramework
